@@ -1,0 +1,23 @@
+{% include html-header.html %}
+
+<div class="navbar navbar-powertracker navbar-fixed-top">
+    <div id="logo">
+        <a id="logoimage" href="/">
+            <img src="/images/logo.png" />
+        </a>
+    </div>
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+            {% include menu.html %}
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">

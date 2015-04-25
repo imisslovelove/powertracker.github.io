@@ -1,0 +1,393 @@
+/**
+*
+* Page and Body
+*
+* - make a gap at the top for the Nav bar
+*
+*/
+
+body {
+    padding-top: 120px;
+}
+
+p {
+    font-size: 20px;
+}
+
+/**
+*
+* Fix issue with bottom scroll
+*
+*/
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/**
+*
+* Responsive Containers
+*
+* - fit to gap
+*
+*/
+
+.responsive-container {
+
+}
+
+.responsive-container img,
+.responsive-container iframe,
+.responsive-container object,
+.responsive-container embed {
+    width: 100%;
+}
+
+/**
+*
+* Headings
+*
+*/
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 300%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    h1 {
+        font-size: 300%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    h1 {
+        font-size: 400%;
+    }
+}
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 400%;
+    }
+}
+
+h2 {
+    color: #cc0000;
+}
+
+/**
+*
+* Page Header
+*
+*/
+
+.navbar #logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 100px;
+    width: 100px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+    display: block;
+    opacity: 1;
+    background-color: white;
+}
+
+.navbar .container {
+    margin-left: 100px;
+    min-height: 100px;
+}
+
+/**
+*
+* Nav Bar
+*
+*/
+
+.navbar-powertracker {
+    background-color: white;
+    border-color: #cc0000;
+}
+@media (max-width: 767px) {
+    .navbar-powertracker {
+        background-color: transparent;
+        border-color: transparent;
+    }
+}
+.navbar-powertracker .navbar-brand {
+    color: #777;
+}
+.navbar-powertracker .navbar-brand:hover,
+.navbar-powertracker .navbar-brand:focus {
+    color: #5e5e5e;
+    background-color: transparent;
+}
+.navbar-powertracker .navbar-text {
+    color: #cc0000;
+}
+.navbar-powertracker .navbar-nav > li > a {
+    color: #cc0000;
+}
+@media (min-width: 992px) {
+    .navbar-powertracker .navbar-nav > li > a {
+        font-size: large;
+    }
+}
+.navbar-powertracker .navbar-nav > li > a:hover,
+.navbar-powertracker .navbar-nav > li > a:focus {
+    color: red;
+    background-color: transparent;
+    border-bottom: solid 3px red;
+}
+.navbar-powertracker .navbar-nav > .active > a,
+.navbar-powertracker .navbar-nav > .active > a:hover,
+.navbar-powertracker .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+.navbar-powertracker .navbar-nav > .disabled > a,
+.navbar-powertracker .navbar-nav > .disabled > a:hover,
+.navbar-powertracker .navbar-nav > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+}
+.navbar-powertracker .navbar-toggle {
+    border-color: #ddd;
+}
+.navbar-powertracker .navbar-toggle:hover,
+.navbar-powertracker .navbar-toggle:focus {
+    background-color: #ddd;
+}
+.navbar-powertracker .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+.navbar-powertracker .navbar-collapse,
+.navbar-powertracker .navbar-form {
+    border-color: #e7e7e7;
+    margin-top: 20px;
+}
+.navbar-powertracker .navbar-nav > .open > a,
+.navbar-powertracker .navbar-nav > .open > a:hover,
+.navbar-powertracker .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+@media (max-width: 767px) {
+    .navbar-powertracker .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-powertracker .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-powertracker .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+        background-color: transparent;
+    }
+    .navbar-powertracker .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-powertracker .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-powertracker .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #555;
+        background-color: #e7e7e7;
+    }
+    .navbar-powertracker .navbar-nav .open .dropdown-menu > .disabled > a,
+    .navbar-powertracker .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .navbar-powertracker .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #ccc;
+        background-color: transparent;
+    }
+}
+.navbar-powertracker .navbar-link {
+    color: #777;
+}
+.navbar-powertracker .navbar-link:hover {
+    color: #333;
+}
+.navbar-powertracker .btn-link {
+    color: #777;
+}
+.navbar-powertracker .btn-link:hover,
+.navbar-powertracker .btn-link:focus {
+    color: #333;
+}
+.navbar-powertracker .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-powertracker .btn-link:hover,
+.navbar-powertracker .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-powertracker .btn-link:focus {
+    color: #ccc;
+}
+
+
+/**
+*
+* Page Footer
+*
+*/
+
+#buildings {
+    background: #FFFFFF url(images/buildings.png) no-repeat 50% 0%;
+    height: 40px;
+    margin-top: 45px;
+}
+
+#footer {
+    background-color: #cc0000;
+    color: white;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/**
+*
+* The Message
+*
+*/
+
+.the-message {
+    padding: 50px 0;
+}
+.the-message .main {
+    font-size: 2.5em;
+    font-family: "calluna-sans", sans-serif;
+    text-rendering: optimizelegibility;
+    margin-bottom: 50px;
+}
+.the-message .extra {
+    font-style: italic;
+    font-size:  1.5em;
+    font-family: "freight-text-pro", serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.the-message .readmore {
+    padding-top: 50px;
+}
+.the-message em {
+    color: #cc0000;
+}
+@media (min-width: 768px) {
+    .the-message {
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+    .the-message .main {
+        font-size: 3em;
+        margin-bottom: 70px;
+    }
+}
+@media (min-width: 992px) {
+    .the-message {
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+    .the-message .main {
+        font-size: 3.375em;
+        margin-bottom: 100px;
+    }
+}
+@media (min-width: 1200px) {
+    .the-message {
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+}
+
+/* Lock size */
+
+@media (min-width: 768px) {
+    .lock-size {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (min-width: 992px) {
+    .lock-size {
+        width: 700px;
+    }
+}
+
+/* Main */
+
+.the-message-main {
+    height: 70vh;
+    padding-top: 20vh;
+}
+@media (min-width: 768px) {
+    .the-message-main .main {
+        width: 700px;
+        margin-left: auto ;
+        margin-right: auto ;
+    }
+}
+@media (min-width: 992px) {
+    .the-message-main .main {
+        width: 800px;
+        margin-left: auto ;
+        margin-right: auto ;
+    }
+}
+
+/* Red */
+
+.the-message-red {
+    background-color: #cc0000;
+    color: white;
+}
+.the-message-red em {
+    color: black;
+}
+
+/* White */
+
+.the-message-white .btn-default {
+    color: #ffffff;
+    background-color: #cc0000;
+    border-color: #ccc;
+}
+
+/* Black */
+
+.the-message-black {
+    color: white;
+    background-color: rgba(46,48,58,0.96);
+}
+.the-message-black em {
+    color: #cc0000;
+}
+.the-message-black .btn-default {
+    color: #ffffff;
+    background-color: #cc0000;
+    border-color: #ccc;
+}
+
+/**
+*
+* Pull down
+*
+* - shows more content by little arrow
+*
+*/
+
+.pull-down {
+    height: 10vh;
+    color: #cc0000;
+    margin: 50px 0;
+}
+
+/**
+*
+* Backgrounds
+*
+*/
+
+.background-crosses {
+    background-image: url(backgrounds/crosses.png);
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    background-position: right bottom;
+}

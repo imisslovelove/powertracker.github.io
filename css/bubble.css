@@ -1,0 +1,43 @@
+/**
+*
+* Bubble
+*
+*/
+
+.bubble {
+    width: 264px;
+    max-width: 100%;
+    height: 190px;
+    background: url(images/bubble.gif) no-repeat 0 0;
+    font-family: "Lobster",cursive;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.1;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+.bubble .bubble-inner {
+    padding-top: 38px;
+}
+
+/**
+*
+* Dark Bubble
+*
+*/
+
+.bubble.bubble-dark {
+    width: 213px;
+    height: 215px;
+    color: #FFF;
+    background-image: url(images/bubble-dark.png);
+    text-align: left;
+    font-size: 22px;
+}
+.bubble.bubble-dark .bubble-inner {
+    /*    padding-top: 42px;*/
+    /*    padding-left: 34px;*/
+}
+
