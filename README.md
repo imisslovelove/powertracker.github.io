@@ -16,8 +16,10 @@ Jekyll is a HTML encoder that translates simple pages into fully themes sites
 
 To start the encoder
 
-  cd C:\Users\Geoff\Google Drive\Power Tracker\Source Code\powertracker\Jekyll
-  jekyll server
+``
+cd C:\Users\Geoff\Google Drive\Power Tracker\Source Code\powertracker\Jekyll
+jekyll server
+``
 
 Open a Browser to
 
