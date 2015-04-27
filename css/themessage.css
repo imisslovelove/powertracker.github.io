@@ -1,0 +1,138 @@
+
+/**
+*
+* The Message
+*
+*/
+
+.the-message {
+    padding: 50px 0;
+}
+.the-message .main {
+    font-size: 2.5em;
+    font-family: "calluna-sans", sans-serif;
+    text-rendering: optimizelegibility;
+    margin-bottom: 50px;
+}
+.the-message .extra {
+    font-style: italic;
+    font-size:  1.5em;
+    font-family: "freight-text-pro", serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.the-message .readmore {
+    padding-top: 50px;
+}
+.the-message em {
+    color: #cc0000;
+}
+@media (min-width: 768px) {
+    .the-message {
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+    .the-message .main {
+        font-size: 3em;
+        margin-bottom: 70px;
+    }
+}
+@media (min-width: 992px) {
+    .the-message {
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+    .the-message .main {
+        font-size: 3.375em;
+        margin-bottom: 100px;
+    }
+}
+@media (min-width: 1200px) {
+    .the-message {
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+}
+
+/* Lock size */
+
+@media (min-width: 768px) {
+    .lock-size {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (min-width: 992px) {
+    .lock-size {
+        width: 700px;
+    }
+}
+
+/* Main */
+
+.the-message-main {
+    height: 70vh;
+    padding-top: 20vh;
+}
+@media (min-width: 768px) {
+    .the-message-main .main {
+        width: 700px;
+        margin-left: auto ;
+        margin-right: auto ;
+    }
+}
+@media (min-width: 992px) {
+    .the-message-main .main {
+        width: 800px;
+        margin-left: auto ;
+        margin-right: auto ;
+    }
+}
+
+/* Red */
+
+.the-message-red {
+    background-color: #cc0000;
+    color: white;
+}
+.the-message-red em {
+    color: black;
+}
+
+/* White */
+
+.the-message-white .btn-default {
+    color: #ffffff;
+    background-color: #cc0000;
+    border-color: #ccc;
+}
+
+/* Black */
+
+.the-message-black {
+    color: white;
+    background-color: rgba(46,48,58,0.96);
+}
+.the-message-black em {
+    color: #cc0000;
+}
+.the-message-black .btn-default {
+    color: #ffffff;
+    background-color: #cc0000;
+    border-color: #ccc;
+}
+
+/**
+*
+* Pull down
+*
+* - shows more content by little arrow
+*
+*/
+
+.pull-down {
+    height: 10vh;
+    color: #cc0000;
+    margin: 50px 0;
+}
