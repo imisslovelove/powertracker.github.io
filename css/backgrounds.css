@@ -18,3 +18,27 @@
 }
 
 
+.background-contact {
+    background-image: url(backgrounds/contact.png);
+}
+
+
+.background-solution-business {
+    background-image: url(backgrounds/solution-business.png);
+}
+.background-solution-dealer {
+    background-image: url(backgrounds/solution-dealer.png);
+}
+.background-solution-home {
+    background-image: url(backgrounds/solution-home.png);
+}
+.background-solution-multitenancy {
+    background-image: url(backgrounds/solution-multitenancy.png);
+}
+.background-solution-solar {
+    background-image: url(backgrounds/solution-solar.png);
+}
+.background-solution-utility {
+    background-image: url(backgrounds/solution-utility.png);
+}
+
