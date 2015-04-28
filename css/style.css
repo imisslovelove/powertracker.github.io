@@ -92,6 +92,9 @@ h2 {
 }
 
 #footer {
+    background-image: url(backgrounds/red-grunge.jpg);
+    background-size: cover;
+    background-position: center;
     background-color: #cc0000;
     color: white;
     margin-top: 0;
