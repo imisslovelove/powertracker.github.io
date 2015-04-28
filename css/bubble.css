@@ -8,7 +8,7 @@
     width: 264px;
     max-width: 100%;
     height: 190px;
-    background: url(images/bubble.gif) no-repeat 0 0;
+    background: url(bubbles/bubble.gif) no-repeat 0 0;
     font-family: "Lobster",cursive;
     font-size: 18px;
     text-align: center;
@@ -32,7 +32,7 @@
     width: 213px;
     height: 215px;
     color: #FFF;
-    background-image: url(images/bubble-dark.png);
+    background-image: url(bubbles/bubble-dark.png);
     text-align: left;
     font-size: 22px;
 }

@@ -1,0 +1,20 @@
+.background {
+    background-size: cover;
+    background-position: center;
+}
+.background-sg6200nxl {
+    background-image: url(backgrounds/sg6200.png);
+}
+.background-red-grunge {
+    background-image: url(backgrounds/red-grunge.jpg);
+}
+.background-grey-chalkboard {
+    background-image: url(backgrounds/grey-chalkboard.jpg);
+}
+.background-grey-crosses {
+    background-image: url(backgrounds/grey-crosses.png);
+    background-size: 50% auto;
+    background-position: right bottom;
+}
+
+

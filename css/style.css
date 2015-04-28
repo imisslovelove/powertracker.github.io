@@ -86,7 +86,7 @@ h2 {
 */
 
 #buildings {
-    background: #FFFFFF url(images/buildings.png) no-repeat 50% 0%;
+    background: #FFFFFF url(footer/buildings.png) no-repeat 50% 0%;
     height: 40px;
     margin-top: 45px;
 }
@@ -101,19 +101,6 @@ h2 {
 
 /**
 *
-* Backgrounds
-*
-*/
-
-.background-crosses {
-    background-image: url(backgrounds/crosses.png);
-    background-repeat: no-repeat;
-    background-size: 50% auto;
-    background-position: right bottom;
-}
-
-/**
-*
 * Products
 *
 */
@@ -122,14 +109,14 @@ h2 {
     margin-bottom: 100px;
 }
 
-.product-page .product-name {
+.product-name {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
     padding: 20px 0;
 }
 
-.product-page .product-purpose {
+.product-purpose {
     text-align: center;
     font-style: italic;
     font-size: 20px;
