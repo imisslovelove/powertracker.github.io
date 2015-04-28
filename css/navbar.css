@@ -4,16 +4,21 @@
 *
 */
 
+/* this is to show admin bar on Drupal site */
+.navbar-fixed-top, .navbar-fixed-bottom {
+    z-index: 999;
+}
+
+.navbar-nav {
+    margin-left: 100px;
+}
+.navbar-right,
+.navbar-nav.secondary {
+    margin-left: 0;
+}
 .navbar-powertracker {
     background-color: white;
-    /*    border-color: #cc0000;*/
-    padding-left: 120px;
-}
-@media (max-width: 767px) {
-    .navbar-powertracker {
-        background-color: transparent;
-        border-color: transparent;
-    }
+    border-color: transparent;
 }
 .navbar-powertracker .navbar-brand {
     color: #777;
@@ -53,8 +58,8 @@
 .navbar-powertracker .navbar-nav > .active > a,
 .navbar-powertracker .navbar-nav > .active > a:hover,
 .navbar-powertracker .navbar-nav > .active > a:focus {
-    color: #555;
-    background-color: #e7e7e7;
+    color: white;
+    background-color: #cc0000;
 }
 .navbar-powertracker .navbar-nav > .disabled > a,
 .navbar-powertracker .navbar-nav > .disabled > a:hover,
