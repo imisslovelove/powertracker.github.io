@@ -14,12 +14,15 @@ layout: none
 </div>
 
 <div class="pull-down text-center">
-    Read more<br />
-    <i class="glyphicon glyphicon-chevron-down"></i>
+    <a id="scrolldown" href="#topcontent">
+        Read more<br />
+        <i class="glyphicon glyphicon-chevron-down"></i>
+    </a>
 </div>
 
-<div class="row text-center the-message the-message-white background background-sg6200nxl">
+<div id="topcontent" class="row text-center the-message the-message-white background background-sg6200nxl">
     <div class="container">
+        <a name="topcontent"></a>
         <div class="main">
             <i class="glyphicon glyphicon-scale"></i> real time energy monitoring
         </div>
@@ -104,3 +107,22 @@ layout: none
     </div>
 </div>
 
+<script type="text/javascript">
+
+    // Must use jQuery not $ to be Drupal compatible
+
+    jQuery( document ).ready(function() {
+
+        // Scroll the #content into view when scrolldown is clicked via JS
+
+        jQuery('#scrolldown').click(function () {
+            jQuery('#topcontent').get(0).scrollIntoView();
+        });
+
+        // Remove the existing #tag href
+
+        jQuery("#scrolldown").removeAttr("href");
+
+    });
+
+</script>

@@ -1,6 +1,6 @@
 {% include html-header.html %}
 
-<div class="navbar navbar-powertracker navbar-fixed-top">
+<header class="navbar navbar-powertracker navbar-fixed-top" id="navbar" role="banner">
     <div class="container">
 
         <div class="navbar-header">
@@ -16,10 +16,12 @@
         </a>
 
         <div class="navbar-collapse collapse" id="navbar-main">
-            {% include menu-header.html %}
+            <nav role="navigation">
+                {% include menu-header.html %}
+            </nav>
         </div>
 
     </div>
-</div>
+</header>
 
 <div class="container-fluid">
