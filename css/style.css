@@ -132,3 +132,14 @@ h2 {
     font-size: 24px;
     padding-top: 50px;
 }
+
+/**
+*
+* Single Elements
+*
+*/
+
+.callus-phone-number {
+    font-size: 36px;
+    font-weight: bold;
+}
