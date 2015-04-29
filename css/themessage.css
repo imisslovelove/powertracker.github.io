@@ -136,3 +136,30 @@
     color: #cc0000;
     margin: 50px 0;
 }
+
+/**
+*
+* Solution Page
+*
+*/
+.the-solution {
+    border: 20px;
+    border-color: red;
+    border-width: 3px;
+    padding: 20px;
+    text-align: center;
+}
+
+.the-solution .main {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.the-solution .extra {
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.the-solution .readmore {
+    margin-bottom: 50px;
+}
