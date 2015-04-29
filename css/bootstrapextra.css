@@ -264,8 +264,12 @@
 *
 */
 
-.text-large {
+.text-xlarge {
     font-size: 48px;
+}
+
+.text-large {
+    font-size: 36px;
 }
 
 /**
