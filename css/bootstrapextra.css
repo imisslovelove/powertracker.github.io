@@ -258,4 +258,28 @@
     border-color: #d6e9c6;
 }
 
+/**
+*
+* Text Sizes
+*
+*/
+
+.text-large {
+    font-size: 48px;
+}
+
+/**
+*
+* Padding
+*
+*/
+
+.padding-large {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+
 

@@ -7,6 +7,7 @@
 }
 .background-red-grunge {
     background-image: url(backgrounds/red-grunge.jpg);
+    color: white;
 }
 .background-grey-chalkboard {
     background-image: url(backgrounds/grey-chalkboard.jpg);

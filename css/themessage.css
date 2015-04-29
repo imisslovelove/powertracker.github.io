@@ -145,6 +145,7 @@
 * Solution Page
 *
 */
+
 .the-solution {
     border: 20px;
     border-color: red;
@@ -166,3 +167,4 @@
 .the-solution .readmore {
     margin-bottom: 50px;
 }
+
