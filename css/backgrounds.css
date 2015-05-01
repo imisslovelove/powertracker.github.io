@@ -1,7 +1,62 @@
+/* Red */
+
+.background-red {
+    background-color: #cc0000;
+    color: white;
+}
+.background-red em {
+    color: black;
+}
+
+/* White */
+
+.background-white .btn-default {
+    color: #ffffff;
+    background-color: #cc0000;
+    border-color: #ccc;
+}
+
+/* Black */
+
+.background-black {
+    color: white;
+    background-color: rgba(46,48,58,0.96);
+}
+.background-black em {
+    color: #cc0000;
+}
+.background-black .btn-default {
+    color: #ffffff;
+    background-color: #cc0000;
+    border-color: #ccc;
+}
+
+/* Gray */
+
+.background-gray {
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+}
+.background-gray em {
+    color: #cc0000;
+}
+.background-gray .btn-default {
+    color: #ffffff;
+    background-color: #cc0000;
+    border-color: #ccc;
+}
+
+/**
+*
+* Background Images
+*
+*/
+
 .background {
     background-size: cover;
     background-position: center;
 }
+
 .background-sg6200nxl {
     background-image: url(backgrounds/sg6200.png);
 }
@@ -17,13 +72,9 @@
     background-size: 50% auto;
     background-position: right bottom;
 }
-
-
 .background-contact {
     background-image: url(backgrounds/contact.png);
 }
-
-
 .background-solution-business {
     background-image: url(backgrounds/solution-business.png);
 }
