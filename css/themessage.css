@@ -10,21 +10,21 @@
     font-family: "calluna-sans", sans-serif;
     text-rendering: optimizelegibility;
 }
-.the-message .main {
+.the-message-main {
     font-size: 2.5em;
     margin-bottom: 50px;
 }
-.the-message .medium {
+.the-message-medium {
     font-size: 2.0em;
     margin-bottom: 50px;
 }
-.the-message .extra {
+.the-message-extra {
     font-style: italic;
     font-size:  1.5em;
     padding-left: 10px;
     padding-right: 10px;
 }
-.the-message .readmore {
+.the-message-readmore {
     padding-top: 50px;
 }
 .the-message em {
@@ -45,7 +45,7 @@
         padding-top: 150px;
         padding-bottom: 100px;
     }
-    .the-message .main {
+    .the-message-main {
         font-size: 3.375em;
         margin-bottom: 100px;
     }
@@ -74,19 +74,19 @@
 
 /* Main */
 
-.the-message-main {
+.the-message-home {
     height: 70vh;
     padding-top: 20vh;
 }
 @media (min-width: 768px) {
-    .the-message-main .main {
+    .the-message-home .the-message-main {
         width: 700px;
         margin-left: auto ;
         margin-right: auto ;
     }
 }
 @media (min-width: 992px) {
-    .the-message-main .main {
+    .the-message-home .the-message-main {
         width: 800px;
         margin-left: auto ;
         margin-right: auto ;
@@ -122,17 +122,17 @@
     height: 280px;
 }
 
-.the-solution .main {
+.the-solution .the-solution-main {
     font-size: 24px;
     margin-bottom: 20px;
 }
 
-.the-solution .extra {
+.the-solution .the-solution-extra {
     margin-bottom: 20px;
     font-style: italic;
 }
 
-.the-solution .readmore {
+.the-solution .the-solution-readmore {
     margin-bottom: 50px;
 }
 
