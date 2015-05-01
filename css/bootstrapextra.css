@@ -272,6 +272,19 @@
     font-size: 36px;
 }
 
+
+/**
+*
+* Text Sizes
+*
+*/
+
+.text-green {
+    color: #38b44a;
+}
+
+
+
 /**
 *
 * Padding
