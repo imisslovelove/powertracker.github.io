@@ -1,3 +1,11 @@
+/**
+*
+* Background Colours
+*
+* Set the background color (no image) and text color to match
+*
+*/
+
 /* Red */
 
 .background-red {
@@ -48,49 +56,78 @@
 
 /**
 *
-* Background Images
+* Backgrounds with Images
 *
 */
 
-.background {
+.background-sg6200nxl {
+    background-color: #f2f2f1;
+    background-image: url(backgrounds/sg6200nxl.png);
     background-size: cover;
     background-position: center;
 }
-
-.background-sg6200nxl {
-    background-image: url(backgrounds/sg6200.png);
+.background-sg6200nxl .btn-default {
+    color: #ffffff;
+    background-color: #cc0000;
 }
 .background-red-grunge {
+    background-color: #7e1f1d;
     background-image: url(backgrounds/red-grunge.jpg);
+    background-size: cover;
+    background-position: center;
     color: white;
 }
+.background-red-grunge .btn-default {
+    color: #ffffff;
+    background-color: #cc0000;
+}
 .background-grey-chalkboard {
+    background-color: #757575;
     background-image: url(backgrounds/grey-chalkboard.jpg);
+    background-size: cover;
+    background-position: center;
+/*    color: white;*/
 }
 .background-grey-crosses {
+    background-color: #757575;
     background-image: url(backgrounds/grey-crosses.png);
+    background-size: cover;
+    background-position: center;
     background-size: 50% auto;
     background-position: right bottom;
 }
 .background-contact {
     background-image: url(backgrounds/contact.png);
+    background-size: cover;
+    background-position: center;
 }
 .background-solution-business {
     background-image: url(backgrounds/solution-business.png);
+    background-size: cover;
+    background-position: center;
 }
 .background-solution-dealer {
     background-image: url(backgrounds/solution-dealer.png);
+    background-size: cover;
+    background-position: center;
 }
 .background-solution-home {
     background-image: url(backgrounds/solution-home.png);
+    background-size: cover;
+    background-position: center;
 }
 .background-solution-multitenancy {
     background-image: url(backgrounds/solution-multitenancy.png);
+    background-size: cover;
+    background-position: center;
 }
 .background-solution-solar {
     background-image: url(backgrounds/solution-solar.png);
+    background-size: cover;
+    background-position: center;
 }
 .background-solution-utility {
     background-image: url(backgrounds/solution-utility.png);
+    background-size: cover;
+    background-position: center;
 }
-
