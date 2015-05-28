@@ -163,8 +163,13 @@ h2 {
 .solutions-page {}
 
 
-.solutions-page h1 {}
+.solutions-page h1 {
+    margin-top: 50px;
+}
 
+.solutions-page h1 em {
+    color: #cc0000;
+}
 
 
 
