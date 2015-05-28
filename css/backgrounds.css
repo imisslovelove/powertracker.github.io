@@ -131,3 +131,13 @@
     background-size: cover;
     background-position: center;
 }
+.background-solution-manufacturing {
+    background-image: url(backgrounds/solution-manufacturing.png);
+    background-size: cover;
+    background-position: center;
+}
+.background-solution-schools {
+    background-image: url(backgrounds/solution-schools.png);
+    background-size: cover;
+    background-position: center;
+}
