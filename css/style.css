@@ -89,13 +89,24 @@ h2 {
 *
 */
 
-#buildings {
+.buildings {
     background: #FFFFFF url(footer/buildings.png) no-repeat 50% 0%;
     height: 40px;
     margin-top: 45px;
 }
 
-#footer {
+.footer-menu {
+    font-size: 12px;
+    background-color: #cc0000;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer-menu a {
+    color: white;
+}
+
+.footer {
     background-image: url(backgrounds/red-grunge.jpg);
     background-size: cover;
     background-position: center;
