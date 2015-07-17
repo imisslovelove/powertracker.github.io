@@ -1,2 +1,4 @@
 *.db
 /_site
+/_posts/desktop.ini
+*.ini
