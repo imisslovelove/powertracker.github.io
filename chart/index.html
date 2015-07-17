@@ -1,0 +1,65 @@
+---
+title: Google Chart
+layout: none
+---
+
+<div id = "details-chart-540-6542-day-1437055200"></div>
+
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+    google.load("visualization", "1", {
+        packages : ["corechart"]
+    });
+</script>
+<script type="text/javascript">
+
+    function details_func_540_6542_day_1437055200 () {
+
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'When');
+        data.addColumn('number', 'T0X0212000352');
+        data.addColumn('number', 'S8X0312000291');
+        data.addColumn('number', 'S8X0312000294');
+        data.addColumn('number', 'S8X0312000297');
+        data.addColumn('number', 'S8X0312000308');
+        data.addColumn('number', 'S8X0312000312');
+        data.addColumn('number', 'TOX0912000675');
+        data.addColumn('number', 'TOX0912000676');
+        data.addColumn('number', 'TOX0912000681');
+        data.addRow(['00',32,71,73,34,92,55,18,71,-24]);
+        data.addRow(['01',49,56,18,56,91,88,90,65,-73]);
+        data.addRow(['02',69,54,81,35,2,24,80,68,-38]);
+        data.addRow(['03',67,93,12,83,99,95,59,88,-83]);
+        data.addRow(['04',16,48,57,38,34,71,43,27,-76]);
+        data.addRow(['05',68,49,66,22,29,28,22,98,-96]);
+        data.addRow(['06',84,10,84,59,69,95,7,58,-87]);
+        data.addRow(['07',94,45,84,90,71,27,78,83,-42]);
+        data.addRow(['08',31,31,17,73,84,82,96,80,-65]);
+        data.addRow(['09',24,74,28,3,95,53,33,74,-87]);
+        data.addRow(['10',87,61,8,41,78,26,83,47,-80]);
+        data.addRow(['11',95,26,46,96,84,15,28,79,-57]);
+        data.addRow(['12',79,34,32,31,97,55,8,72,-95]);
+        data.addRow(['13',31,10,94,53,53,92,63,97,-62]);
+        data.addRow(['14',57,96,8,48,58,58,12,51,-97]);
+        data.addRow(['15',63,87,63,28,79,62,24,54,-20]);
+        data.addRow(['16',16,24,29,53,75,5,55,92,-18]);
+        data.addRow(['17',57,86,4,74,20,24,4,20,-86]);
+        data.addRow(['18',22,57,85,94,85,80,47,35,-65]);
+        data.addRow(['19',38,33,51,65,47,22,31,38,-71]);
+        data.addRow(['20',42,17,87,28,72,98,66,82,-38]);
+        data.addRow(['21',16,78,49,20,61,75,94,46,-74]);
+        data.addRow(['22',61,35,94,45,89,35,91,16,-62]);
+        data.addRow(['23',10,16,75,34,27,97,66,7,-1]);
+        data.addRow(['00',12,77,34,97,90,49,19,31,-8]);
+
+        var options = {'vAxis':{'minValue':0,'title':'Power (Wh)'},'hAxis':{'title':'Hour of Day'},'animation':{'duration':1000,'easing':'out'}};
+        var chart = new google.visualization.LineChart(document.getElementById("details-chart-540-6542-day-1437055200"));
+        chart.draw(data, options);
+
+    }
+
+
+    details_func_540_6542_day_1437055200();
+
+
+</script>
